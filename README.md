@@ -1,2 +1,281 @@
-# Research-Group
-JavaScript Web
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>智能配电网运行与控制</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="author" content="pixelhint.com">
+	<meta name="description" >
+
+
+	<!-- CSS Files -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Javascript Files -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+<style>
+	/* header背景颜色渐变  */
+#grad1 {
+    height: 200px;
+    width: auto;
+    background: linear-gradient(to right, white 45% , #7D7DFF); 
+}
+#grad2{
+	width: auto;
+	background-image: url(img/10.jpg);
+}
+</style>
+</head>
+<body>
+
+<div style="background-color: #F0F0F0 "><!--整体背景灰色 -->
+	
+
+	<!-- header Section -->
+	<header>
+		<div id="grad1" class="container">
+			
+			<!-- Logo  -->
+			<a href="#" class="logo">
+				<img src="img/01.jpg" >		
+			</a>
+			
+			<!-- Navigation Menu  -->
+			<nav>
+				<ul>
+					<li><a href="#" class="selected" style="font-size:25px;"><b>首页</b></a></li>
+					<li><a href="#" style="font-size:22px;"><b>导师介绍</b></a></li>                                                                 
+					<li><a href="#" style="font-size:22px;"><b>科研方向</b></a></li>
+					<li><a href="#" style="font-size:22px;"><b>成员介绍</b></a></li>
+					<li><a href="#" style="font-size:22px;"><b>组内动态&nbsp;&nbsp;&nbsp;&nbsp;</b></a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</header><!-- end header -->
+	
+	<!-- Slider Section -->
+	<section class="slider_wrapper">
+		
+		<div id="slides">
+
+			<div class="slide">
+				<img src="img/2.jpg" alt=""/>
+				<h3 class="caption">安全</h3>
+			</div>
+
+			<div class="slide">
+				<img src="img/3.jpg" alt=""/>
+				<h3 class="caption">经济</h3>
+			</div>
+
+			<div class="slide">
+				<img src="img/4.jpg" alt=""/>
+				<h3 class="caption">环保</h3>
+			</div>
+
+		</div>
+
+	</section><!-- end slider -->
+<hr/>
+	<!-- Services Section -->
+	<section class="services container clearfix" style="background-color: white;">
+		
+    	    <!-- Services Title  -->
+	    	<div class="section_title animated wow fadeInUp">
+				<h3 style="font-size: 45px;">实验室介绍</h3>
+				<br/>
+				<p style="font-size: 15px;margin-left: 10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天津大学智能配电网
+					分析与控制课题组是由天津大学王守相教授创建的。课题组前期主要研究配电系统分析及优化、潮流计算等，之后又逐步
+					拓展到分布式发电系统、智能微电网设计与可靠性评估等多个领域。课题组先后承担国家重大基础研究计划（973）课题3项，
+					国家高技术发展计划（863）课题2项，国家科技支撑计划课题2项，国家自然科学基金重大项目课题1项、重点项目1项、
+					面上项目4项。截止到2017年，课题组先后在国内外学术期刊和国际会议上发表论文40多篇，出版专著2部，获得专利和
+					软件版权10多项。为国家培养了50多名博士和硕士等高级专门人才......</p>
+				<a href="#" style="margin-left: 10px;font-size: 18px;">更多<span class="arrow">&rarr;</span></a>
+			</div>
+		
+			<!-- Services List  -->   		
+			<div class="services_list">
+				<ul>
+					
+					<li class="animated wow fadeInRight" data-wow-delay=".2s">
+						<h3 style="padding-top: 35px;font-size: 25px;"><img src="img/23.png"/>&nbsp;&nbsp;软件</h3>
+						<p style="font-size: 15px;">课题组科研探索的同时也自主研发出了不少相关专业领域的软件，使科研成果实体化，为专业领域一些特定问题的
+							研究提供了便捷和依据，也为接下来进一步科研提供了借鉴。主要软件有负荷预测软件、配电网终端优化
+							配置软件、三相潮流分析软件、微电网性能评估软件、智能配电网状态估计软件等……</p>
+						<a href="#" style="font-size: 18px;">更多<span class="arrow">&rarr;</span></a>
+					</li>
+					<li class="animated wow fadeInRight" data-wow-delay=".3s">
+						<h3 style="padding-top: 35px;font-size: 25px;"><img src="img/21.png"/>&nbsp;&nbsp;论文</h3>
+						<p style="font-size: 15px;">目前，实验室已发表论文40余篇，大体可以分为有源配电网建模及分析计算方法、有源配电网电能质量扰动源定位追
+							踪技术、有源配电网电能质量监控装置优化配置及综合评估技术、有源配电网电能质量优化控制技
+							术、基于云存储的电能质量分布式在线智能检测分析以及综合治理系统平台等几大类......</p>
+						<a href="#" style="font-size: 18px;">更多<span class="arrow">&rarr;</span></a>
+					</li>
+					<li class="animated wow fadeInRight" data-wow-delay=".4s">
+						<h3 style="padding-top: 35px;font-size: 25px;"><img src="img/22.png"/>&nbsp;&nbsp;专利</h3>
+						<p style="font-size: 15px;">实验室专利数量达到25项之多，主要有基于复仿射数学理论的三相不平衡潮流计算方法、一种电力系统
+							不确定性跟踪的复仿射数学方法、一种基于pair-copula函数的微电网可靠性评估数据抽样方
+							法、有源电力滤波器的改进空间矢量单周控制方法及装置等等......</br></br></br></p>
+						<a href="#" style="font-size: 18px;">更多<span class="arrow">&rarr;</span></a>
+					</li>
+				</ul>
+			</div>
+
+	</section><!-- end services -->
+<hr/ style="margin-right: 115px;margin-left: 115px;">
+	<!-- Projects Section -->
+	<section class="projects container clearfix" style="background-color: white;">
+			
+			<!-- Projects Title  -->
+			<div class="section_title animated wow fadeInUp">
+				<h2>Our Work.</h2>
+				<ul style="padding-left: 40px;line-height: 24px;">
+					<li>科研成果</li>
+					<li>系统软件平台</li>
+					<li>终端装置</li>
+					<li>工程实践</li>
+				</ul>
+				<br/><br/></br></br></br></br>
+				<a href="" class="details" style="font-size:15px;">&nbsp;&nbsp;更多项目成果（More Projects）<span class="arrow">&rarr;</span></a>
+			</div>
+
+			<!-- Projects List  -->
+			<div class="client_list clearfix">
+				<ul>
+					<li class="animated wow fadeInRight" data-wow-delay=".2s">
+						<a href="#"><img src="img/15.jpg" alt="Client 1" /><a/>
+					</li>
+					<li class="animated wow fadeInRight" data-wow-delay=".3s">
+						<a href="#"><img src="img/16.jpg" alt="Client 1" /><a/>
+					</li>
+					
+				</ul>
+			</div>
+
+	</section><!-- end projects -->
+<hr/ style="margin-right: 115px;margin-left: 115px;">
+	
+	<!-- Clients Section -->
+	<section class="clients container" style="background-color: white;">
+		
+			<!-- Clients section Title  -->
+			<div class="section_title animated wow fadeInUp">
+				<h2>News.</h2>
+				</br></br></br></br>
+				<a href="" class="details" style="font-size: 15px;">&nbsp;&nbsp;更多组内动态<span class="arrow">&rarr;</span></a>
+			</div>
+
+			<!-- Clients List  -->
+	<div style="margin-left: 250px;">
+				
+		
+		<script language="javascript">
+			window.onload=function()
+				{
+				var rt=new imgRound("imgContainer",280,200,420,40,380,0.007);
+				setInterval(function(){rt.roundMove()},20)
+				}
+			function imgRound(id,w,h,x,y,r,dv,rh,ah)
+			{
+					if (ah==undefined) ah=1;
+					if (rh==undefined) rh=10;
+					var dv=dv*ah; //旋转速度
+					var pi=3.1415926575;
+					var d=pi/2;
+					var pd=Math.asin(w/2/r);
+					var smove=true;
+					var imgArr=new Array();
+					var objectId=id;
+					var o=document.getElementById(objectId);
+					o.style.position="relative";
+					var arrimg=o.getElementsByTagName("img");
+					var pn=arrimg.length; //图片数量
+					var ed=pi*2/pn;
+				for (n=0;n<arrimg.length;n++)
+				{
+					var lk=arrimg[n].getAttribute("link");
+					if (lk!=null) arrimg[n].setAttribute("title",lk)
+					arrimg[n].onclick=function()
+					{
+						if (this.getAttribute("link")!=null)
+						{
+							if (this.getAttribute("target")!="_blank") window.location=(this.getAttribute("link"))
+							else window.open(this.getAttribute("link"))
+						}
+					}
+					arrimg[n].onmouseout=function(){smove=true;}
+					arrimg[n].onmouseover=function(){smove=false;}
+					arrimg[n].style.position="absolute";
+					imgArr.push(arrimg[n]);
+				}
+				this.roundMove=function()
+				{
+					for (n=0;n<=pn-1;n++)
+					{
+						var o=imgArr[n];
+						var ta=Math.sin(d+ed*n),strFilter;
+						if (ta<0) o.style.left=Math.cos(d+ed*n-pd)*r+x+"px";
+						else o.style.left=Math.cos(d+ed*n+pd)*r+x+"px";
+						o.style.top=ta*rh+rh+y+"px";
+						var zoom=Math.abs(Math.sin((d+ed*n)/2+pi/4))*0.5+0.5;
+						o.style.width=Math.abs(Math.cos(d+ed*n+pd)-Math.cos(d+ed*n-pd))*zoom*r+"px";
+						o.style.height=zoom*h+"px";
+						if (ta<0) {ta=(ta+1)*80+20;o.style.zIndex=0;}
+						else {ta=100;o.style.zIndex=1}
+						if (o.style.zIndex<=0) strFilter="FlipH(enabled:true)"
+						else strFilter="FlipH(enabled:false)";
+						strFilter=strFilter+" alpha(opacity="+ta+")";
+						o.style.opacity=ta/100;
+						o.style.filter=strFilter;
+					}
+					if (smove) d=d+dv;
+				}
+			}
+		</script>
+<style>
+#div_pointer{cursor:pointer;}<!--鼠标样式-->
+</style>		
+		<div id="imgContainer" style="background:black; border-radius: 15px 50px ; width:830px;height:300px;border:3px solid #a1a1a1">
+			<img id="div_pointer" src="img/17.jpg"  link="/" target="_blank">
+			<img id="div_pointer" src="img/18.jpg"  link="/" target="_blank">
+			<img id="div_pointer" src="img/19.jpg"  link="/" target="_blank">
+			<img id="div_pointer" src="img/20.jpg"  link="/" target="_blank">
+			<img id="div_pointer" src="img/24.jpg" link="/" target="_blank">
+			<img id="div_pointer" src="img/25.jpg" link="/" target="_blank">
+			<img id="div_pointer" src="img/26.jpg" link="/" target="_blank">
+			<img id="div_pointer" src="img/wall_s3.jpg" link="/" target="_blank">
+		</div>
+	</div>
+
+	</section><!-- end clients -->
+<hr/ style="margin-right: 115px;margin-left: 115px;">
+	<!-- Call To Action Section -->
+	<section class="cta" style="background-color: white;">
+		<div class="container animated wow fadeInUp">
+
+			<h3 class="cta_title">Ready To Get More Information?</h3>
+			<a href="#" class="cta_button">课题组系统入口 &rarr;</a>		
+		</div>
+	</section>		
+	<!-- end cta(call to action) -->
+<hr/>
+	<!-- Footer Section -->
+	<footer class="clearfix" style="background-color: #000000;">
+		<div class="container";>
+			<p style="font-family: '楷体';color: white;text-align:center;">Tel：159&nbsp;0228&nbsp;
+			1366&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email：sxwang@tju.edu.cn</p>
+			</br>
+			<p style="font-family: '楷体';color: white;text-align:center;">Copyright    2017    All Rights Reserved &nbsp;版权所有: 天津大学</p>
+			</br>
+			<p style="font-family: '楷体';color: white;text-align:center;">地址：天津市南开区卫津路天津大学26教学楼&nbsp;&nbsp;邮编：300072</p>
+
+	</footer><!-- end footer -->
+	
+</div> <!--end整体背景灰色 -->
+</body>
+</html>
